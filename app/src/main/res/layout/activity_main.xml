@@ -48,6 +48,7 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        app:setImage="@{viewModel.selectCityWeather.iconName}"
         tools:srcCompat="@tools:sample/avatars" />
 </LinearLayout>
 </layout>

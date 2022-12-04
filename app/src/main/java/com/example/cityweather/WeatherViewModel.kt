@@ -33,6 +33,6 @@ class WeatherViewModel:ViewModel() {
     companion object{
         const val API_URL="https://api.openweathermap.org/"
         const val API_KEY="f3cf00da52124c991711a1e71fe20974"
-
+        const val ICON_URL="https://openweathermap.org/img/wn/"
     }
 }
